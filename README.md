@@ -41,7 +41,7 @@ The problem is sometimes people just don’t know what to watch, the average per
 - Visual Studio
   - Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. Version 2017
  - Java Script
-  - An object-oriented computer programming language commonly used to create interactive effects within web browsers. Version 6
+   - An object-oriented computer programming language commonly used to create interactive effects within web browsers. Version 6
  - Razor
   -Markup syntax for embedding server-based code into webpages. Version 6.0
  - C#
