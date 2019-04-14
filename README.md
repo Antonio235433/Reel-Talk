@@ -43,17 +43,15 @@ The problem is sometimes people just don’t know what to watch, the average per
  - Java Script
    - An object-oriented computer programming language commonly used to create interactive effects within web browsers. Version 6
  - Razor
-  -Markup syntax for embedding server-based code into webpages. Version 6.0
+   -Markup syntax for embedding server-based code into webpages. Version 6.0
  - C#
-  -An object-oriented programming language from Microsoft. Version 6.0
+   -An object-oriented programming language from Microsoft. Version 6.0
  - Bootstrap
-  -Open-source front-end framework for designing websites and web applications. Version 4
- - .Net MVC Framework
-  -
+   -Open-source front-end framework for designing websites and web applications. Version 4
  - MVC architecture
-  -ASP.NET Core is the new web framework from Microsoft. It has been redesigned from the ground up to be fast, flexible, modern, and work across different platforms.
+  -Separates an application into three main components: the model, the view, and the controller.
  - Azure
-  - A cloud computing service created by Microsoft for building, testing, deploying, and managing applications
+    - A cloud computing service created by Microsoft for building, testing, deploying, and managing applications
  - REST API TMDB
-  -Methods for movies, tv shows, and images. Version 3
+   -Methods for movies, tv shows, and images. Version 3
  
