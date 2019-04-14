@@ -49,7 +49,7 @@ The problem is sometimes people just don’t know what to watch, the average per
  - Bootstrap
    - Open-source front-end framework for designing websites and web applications. Version 4
  - MVC architecture
-  - Separates an application into three main components: the model, the view, and the controller.
+   - Separates an application into three main components: the model, the view, and the controller.
  - Azure
     - A cloud computing service created by Microsoft for building, testing, deploying, and managing applications
  - REST API TMDB
