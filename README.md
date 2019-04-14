@@ -37,5 +37,7 @@ The problem is sometimes people just don’t know what to watch, the average per
 - User shall be able to retrieve a random movie selection based of filters that include genre, score, etc.
 - User shall be able to comment on a review.
 
-
-
+# Technology Used
+- Visual Studio
+  - Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft.
+    -Version 2017
