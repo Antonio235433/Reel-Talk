@@ -13,29 +13,29 @@ The problem is sometimes people just don’t know what to watch, the average per
 # Project Scope
 
 ## In-Scope
--User shall be able to register to the website.
--User shall be able to log into the website.
--User shall be able to search for movies by title.
--User shall be able to search now playing movies in the theater.
--User shall be able to search upcoming movies in the theater.
--User shall be able to search movies by popularity.
--User shall be able to search for tv shows by title.
--Registered User shall be able to create a review on a movie or show.
--Registered User shall be able to search reviews on a movie or show by title.
--Registered User shall be able to view reviews on a movie or show.
--Registered User shall be able to view the reviews they created.
--Registered User shall be able to edit the reviews they created.
--Registered User shall be able to delete the reviews they created.
--Registered User shall be able to logout.
+- User shall be able to register to the website.
+- User shall be able to log into the website.
+- User shall be able to search for movies by title.
+- User shall be able to search now playing movies in the theater.
+- User shall be able to search upcoming movies in the theater.
+- User shall be able to search movies by popularity.
+- User shall be able to search for tv shows by title.
+- Registered User shall be able to create a review on a movie or show.
+- Registered User shall be able to search reviews on a movie or show by title.
+- Registered User shall be able to view reviews on a movie or show.
+- Registered User shall be able to view the reviews they created.
+- Registered User shall be able to edit the reviews they created.
+- Registered User shall be able to delete the reviews they created.
+- Registered User shall be able to logout.
 ## Out-of-Scope
--User shall be able to create a watch list.
--User can view a recommended list of movies and tv shows based of their searches.
--User can share their favorite movies and tv shows on their social media.
--User shall be able to search for Actors and Actresses and get details about them.
--User shall be able to view trailers.
--User shall be able to comment on reviews.
--User shall be able to retrieve a random movie selection based of filters that include genre, score, etc.
--User shall be able to comment on a review.
+- User shall be able to create a watch list.
+- User can view a recommended list of movies and tv shows based of their searches.
+- User can share their favorite movies and tv shows on their social media.
+- User shall be able to search for Actors and Actresses and get details about them.
+- User shall be able to view trailers.
+- User shall be able to comment on reviews.
+- User shall be able to retrieve a random movie selection based of filters that include genre, score, etc.
+- User shall be able to comment on a review.
 
 
 
