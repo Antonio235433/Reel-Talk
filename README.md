@@ -57,6 +57,7 @@ The problem is sometimes people just don’t know what to watch, the average per
  
  # Sitemap
  
+ ![](Images/sitemap.png)
  
 # Code Snippets
 ## Public bool method to create a review
