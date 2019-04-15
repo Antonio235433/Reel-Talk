@@ -55,6 +55,9 @@ The problem is sometimes people just don’t know what to watch, the average per
  - REST API TMDB
    - Methods for movies, tv shows, and images. Version 3
  
+ # Sitemap
+ 
+ 
 # Code Snippets
 ## Public bool method to create a review
 ```C#
