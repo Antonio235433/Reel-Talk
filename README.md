@@ -55,8 +55,47 @@ The problem is sometimes people just don’t know what to watch, the average per
  - REST API TMDB
    - Methods for movies, tv shows, and images. Version 3
  
- # Sitemap
+ # Sitemap Diagram
  <img src="Images/Sitemap.PNG">
+ 
+ # Logical Design Diagram
+ <img src="Images/Logical.PNG">
+ 
+ # Physical Design Diagram
+ <img src="Images/Physical.PNG">
+ 
+ # Logical Application Design Diagram
+ <img src="Images/LogicalDesign.PNG">
+ 
+ # UML Diagrams
+ <img src="Images/UML.PNG">
+ <img src="Images/UML2.PNG">
+ 
+ # Flow Chart Diagrams
+ <img src="Images/Register.PNG">
+ <img src="Images/Login.PNG">
+ <img src="Images/review.PNG">
+ 
+ # ER Diagram
+ <img src="Images/ER.PNG">
+ ## DDL Script
+ CREATE TABLE `review` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `TITLE` varchar(60) NOT NULL,
+  `CONTENT` text NOT NULL,
+  `OWNER_ID` int(11) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `fk_review` (`OWNER_ID`),
+  CONSTRAINT `fk_review` FOREIGN KEY (`OWNER_ID`) REFERENCES `user` (`ID`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+CREATE TABLE `user` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `USER_NAME` varchar(24) NOT NULL,
+  `PASSWORD` varchar(14) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
  
 # Code Snippets
 ## Public bool method to create a review
