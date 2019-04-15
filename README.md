@@ -56,8 +56,7 @@ The problem is sometimes people just don’t know what to watch, the average per
    - Methods for movies, tv shows, and images. Version 3
  
  # Sitemap
- 
- ![]{Images/sitemap.png}
+ <img src="Images/Sitemap.PNG">
  
 # Code Snippets
 ## Public bool method to create a review
