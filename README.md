@@ -37,6 +37,10 @@ The problem is sometimes people just don’t know what to watch, the average per
 - User shall be able to retrieve a random movie selection based of filters that include genre, score, etc.
 - User shall be able to comment on a review.
 
+# General Technical Approach
+General Technical Approach:
+I decided to build a web application where people can talk about their opinions on movies and tv shows. The application will allow users to search for movies based of title or get a list of popular, now playing, and upcoming movies. Users will also be able to search for tv shows by title. The application will be built using the Visual Studio Ide and .Net frame work. The design will follow an MVC architecture and use bootstrap to make it more responsive. The application will be hosted on Azure, so everything will be stored up in the cloud. 
+
 # Technology Used
 - Visual Studio
   - Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. Version 2017
@@ -54,6 +58,7 @@ The problem is sometimes people just don’t know what to watch, the average per
     - A cloud computing service created by Microsoft for building, testing, deploying, and managing applications
  - REST API TMDB
    - Methods for movies, tv shows, and images. Version 3
+   
  
  # Sitemap Diagram
  <img src="Images/Sitemap.PNG">
@@ -78,24 +83,6 @@ The problem is sometimes people just don’t know what to watch, the average per
  
  # ER Diagram
  <img src="Images/ER.PNG">
- ## DDL Script
- CREATE TABLE `review` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `TITLE` varchar(60) NOT NULL,
-  `CONTENT` text NOT NULL,
-  `OWNER_ID` int(11) NOT NULL,
-  PRIMARY KEY (`ID`),
-  KEY `fk_review` (`OWNER_ID`),
-  CONSTRAINT `fk_review` FOREIGN KEY (`OWNER_ID`) REFERENCES `user` (`ID`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
-
-CREATE TABLE `user` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `USER_NAME` varchar(24) NOT NULL,
-  `PASSWORD` varchar(14) NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
-
  
 # Code Snippets
 ## Public bool method to create a review
