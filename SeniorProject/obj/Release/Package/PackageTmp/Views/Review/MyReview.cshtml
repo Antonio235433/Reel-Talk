@@ -1,0 +1,31 @@
+﻿@model IEnumerable<SeniorProject.Models.Review>
+
+@{
+    ViewBag.Title = "MyReview";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MyReview</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateReview", "Review")
+</p>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => item.Title)
+
+            </td>
+            <td>
+                <a href="/review/EditReview?id=@item.id">Edit</a> |
+                <a href="/review/DeleteReview?id=@item.id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+@Html.ActionLink("Back", "Review", "Review")

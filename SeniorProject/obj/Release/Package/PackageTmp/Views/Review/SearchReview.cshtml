@@ -1,0 +1,48 @@
+﻿@model IEnumerable<SeniorProject.Models.ReviewWithUsername>
+
+@{
+                /**/
+
+                ViewBag.Title = "SearchReview";
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SearchReview</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <th>
+        Title
+    </th>
+
+    <th>
+        Content
+    </th>
+    <th>
+        Username
+    </th>
+</tr>
+                /**/
+
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Content)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Username)
+    </td>
+</tr>
+}
+
+</table>
+
+@Html.ActionLink("Back", "Review", "Review")
